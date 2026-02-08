@@ -7,7 +7,7 @@ import os
 # Konfiguracja
 API_URL = 'https://metaforge.app/api/arc-raiders/event-timers'
 DISCORD_TOKEN = os.getenv("DISCORD_BOT_TOKEN")  # Umieść token w zmiennej środowiskowej!
-CHANNEL_ID = 123456789012345678  # ID kanału, gdzie bot ma wysyłać info
+CHANNEL_ID = 1424035563337551983  # ID kanału, gdzie bot ma wysyłać info
 
 intents = discord.Intents.default()
 intents.message_content = True
